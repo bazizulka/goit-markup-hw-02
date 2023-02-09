@@ -74,7 +74,7 @@ body {color:var(--Text)
     font-family: inherit;}
 /*button-portfolio*/
 .filter-button 
-    {color:var(--Light)
+    {color:var(--Light);
     background-color:  var(--Pressed-state);
     border-radius: 4px;
     padding: 12px, 24px, 12px, 24px;
@@ -84,8 +84,8 @@ body {color:var(--Text)
     font-weight: 500;
     font-family: inherit;}
 .filter-button:active
-    {color:var(--Light)
-    background-color:  var(--Pressed-state);
+    {color:var(--Light);
+    background-color:  var(var(--Primary-Brand));
     border-radius: 4px;
     padding: 12px, 24px, 12px, 24px;
     cursor: pointer;
