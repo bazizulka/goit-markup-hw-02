@@ -1,110 +1,137 @@
 :root {
     --brand-color:#2E2F42;
+    --Primary-Brand:#4D5AE5;
+    --Pressed-state:#404BBF;
+    --Success:#31D0AA;
+    --Text:#434455;
+    --Subtle Text:#8E8F99;
+    --Accent:#E7E9FC;
+    --Light :#F4F4FD;
+    --Modal-overlay:#2E2F42;
+    --Hero-background:#2E2F42;
+
 }
-body {color:#434455;
+body {color:var(--Text)
     background-color: #E5E5E5;
-    font-family:'Roboto', sans-serif;
+    font-family:'Roboto', Sans-Serif;
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 400;
 }
-/* main text color #434455 */
-/* title color #2E2F42 */
-/* footer text color #E7E9FC*/
-/* section main title #E5E5E5*/
-h1 {background-color: #696fb0;
+.main-title {background-color: #696fb0;
     text-align: center;
     font-size: 56px;
-    line-height: 1.072;
-    font-weight: 700;}
-<!--Logo-->
-.webstudioheader {font-family: 'raleway';
+    line-height: 1.072;}
+/* Logo */
+.webstudioheader {font-family: 'Raleway', Sans-Serif;
     text-decoration: none;
     color:#2E2F42;
     font-size: 18px;
     line-height: 1.333;
     font-weight: 800;}
     span {color:#4D5AE5}
-.webstudiofooter {font-family: 'raleway';
+.webstudiofooter {font-family: 'Raleway', Sans-Serif;
         text-decoration: none;
-        color: #F4F4FD;
+        color: var(--Light);
         font-size: 18px;
         line-height: 1.333;
         font-weight: 800;}
 .main-title {color: #FFFFFF; 
-    background-color: #2E2F42;
+    list-style: none;
+    background-color:var(--Modal-overlay);
     font-size: 56px;
     line-height: 1.07;
     font-weight: 700;}
-<!--button-->
-.order-service {color:#FFFFFF;
-    background-color: #4D5AE5;
+    .brews-text {
+        list-style: none;
+    }
+    .what-we-are-doing{
+        list-style: none;
+    }
+    .ul-contacts {
+        list-style: none;
+    }
+/*button*/
+.order-service {
+    color:#FFFFFF;
+    background-color: var(--Primary-Brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
+    font-family: inherit;
 }
-.order-service:hover {color:#FFFFFF; 
-    background-color: #404BBF;
+.order-service:hover {
+    color:#FFFFFF; 
+    background-color: var(--Pressed-state);
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 500}
-button { margin: 0 auto;
-    display: block;}
-<!--button-portfolio-->
+    font-weight: 500;
+    font-family: inherit;}
+.button { margin: 0 auto;
+    display: block;
+    font-family: inherit;}
+/*button-portfolio*/
 .filter-button 
-    {color:#F4F4FD;
-    background-color: #404BBF;
+    {color:var(--Light)
+    background-color:  var(--Pressed-state);
     border-radius: 4px;
     padding: 12px, 24px, 12px, 24px;
     cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 500;}
+    font-weight: 500;
+    font-family: inherit;}
 .filter-button:active
-    {color:#F4F4FD;
-    background-color: #404BBF;
+    {color:var(--Light)
+    background-color:  var(--Pressed-state);
     border-radius: 4px;
     padding: 12px, 24px, 12px, 24px;
     cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 500;}
-    .nav-button {color:#4D5AE5;
-    background-color: #E7E9FC;
+    font-weight: 500;
+    font-family: inherit;}
+.nav-button {
+    color:var(--Primary-Brand);
+    background-color: var(--Accent);
     border: 1px;
-    border-color: #E7E9FC;
-    border-radius: 4px;}
-    .nav-button:active
+    border-color: var(--Accent);
+    border-radius: 4px;
+    font-family: inherit;}
+.nav-button:active
     {border: 1px;
-        border-color: #E7E9FC;
-        solid;}
-.ul-head-menu{list-style: none;}
-.ul-addres{list-style: none;}
-.album{list-style: none;}
-.head-menu {color: #2E2F42; 
+    border-color: var(--Accent);
+    solid;
+    font-family: inherit;}
+.ul-head-menu {list-style: none;}
+.ul-addres {list-style: none;}
+.section-nav-button {list-style: none;}
+.album {list-style: none;}
+.head-menu {color: var(--brand-color)
     text-decoration:none;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
-    padding: 12px, 24px, 12px, 24px;}
-.head-menu:active {color: #404BBF; text-decoration:none;
+    padding: 12px 24px 12px 24px;}
+.head-menu:active {color: var(--Pressed-state)
+    text-decoration:none;
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 500;}
-.contacts {color: #434455;text-decoration: none;
+    font-weight: 500;
+    padding: 12px 24px 12px 24px;}
+.contacts {color: var(--Text)
+    text-decoration: none;
     font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;}
+    line-height: 1.5;}
 .contacts:hover,
-.contacts:focus {color: #404BBF; text-decoration: none;
+.contacts:focus {color: var(--Pressed-state)
+    text-decoration: none;
     font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;}
+    line-height: 1.5;}
 
-.second-title {color:var(--brand-color)
+.second-title {color:var(--brand-color);
     font-size: 36px;
     line-height: 1.11;
     font-weight:700;
@@ -113,30 +140,26 @@ button { margin: 0 auto;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;}
-.description {color: #434455;
+.description {color: var(--Text)
     font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;}
-<h3>.pic-head {color:#2E2F42
+    line-height: 1.5;}
+.pic-head {color:var(--Text)
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
-<!--команда-->
-.our-team {background-color: #F4F4FD;}
+/*команда*/
+.our-team {background-color: var(--Light);}
 .team-members {backgroundcolor: #FFFFFF;}
-.team-member {color: var(--brand-color)
+.team-member {color: var(--brand-color);
     font-size: 20px;
     line-height: 1.2;}
-.member-profession{color:#434455
+.member-profession{color: var(--Text;)
     font-size: 16px;
     line-height: 1.5;}
-.footer {background-color: #2E2F42;
-    color:var(--brand-color)}
+    /*footer*/
+.footer {background-color: var(--brand-color);
+    color:var(--Accent)}
 .footer-text {color:#E7E9FC;
     font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;}
-
-
-}
-<ul>{list-style: none;}
+    line-height: 1.5;}
+.album {list-style: none;}
