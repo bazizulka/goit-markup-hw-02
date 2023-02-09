@@ -149,7 +149,7 @@ body {color:var(--Text)
     font-weight: 500;
 /*команда*/
 .our-team {background-color: var(--Light);}
-.team-members {backgroundcolor: #FFFFFF;}
+.team-members {background-color: #FFFFFF;}
 .team-member {color: var(--brand-color);
     font-size: 20px;
     line-height: 1.2;}
