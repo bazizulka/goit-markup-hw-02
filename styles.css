@@ -1,17 +1,17 @@
 :root {
     --brand-color:#2E2F42;
-    --Primary-Brand:#4D5AE5;
-    --Pressed-state:#404BBF;
-    --Success:#31D0AA;
-    --Text:#434455;
-    --Subtle Text:#8E8F99;
-    --Accent:#E7E9FC;
-    --Light :#F4F4FD;
-    --Modal-overlay:#2E2F42;
-    --Hero-background:#2E2F42;
+    --primary-Brand:#4D5AE5;
+    --pressed-state:#404BBF;
+    --success:#31D0AA;
+    --text:#434455;
+    --subtleText:#8E8F99;
+    --accent:#E7E9FC;
+    --light :#F4F4FD;
+    --modal-overlay:#2E2F42;
+    --hero-background:#2E2F42;
 
 }
-body {color:var(--Text)
+body {color:var(--text);
     background-color: #E5E5E5;
     font-family:'Roboto', Sans-Serif;
     font-size: 16px;
@@ -37,7 +37,7 @@ body {color:var(--Text)
         font-weight: 800;}
 .main-title {color: #FFFFFF; 
     list-style: none;
-    background-color:var(--Modal-overlay);
+    background-color:var(--modal-overlay);
     font-size: 56px;
     line-height: 1.07;
     font-weight: 700;}
@@ -53,7 +53,7 @@ body {color:var(--Text)
 /*button*/
 .order-service {
     color:#FFFFFF;
-    background-color: var(--Primary-Brand);
+    background-color: var(--primary-Brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
@@ -64,7 +64,7 @@ body {color:var(--Text)
 }
 .order-service:hover {
     color:#FFFFFF; 
-    background-color: var(--Pressed-state);
+    background-color: var(--pressed-state);
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
@@ -74,8 +74,8 @@ body {color:var(--Text)
     font-family: inherit;}
 /*button-portfolio*/
 .filter-button 
-    {color:var(--Light);
-    background-color:  var(--Pressed-state);
+    {color:var(--light);
+    background-color:  var(--pressed-state);
     border-radius: 4px;
     padding: 12px, 24px, 12px, 24px;
     cursor: pointer;
@@ -85,7 +85,7 @@ body {color:var(--Text)
     font-family: inherit;}
 .filter-button:active
     {color:var(--Light);
-    background-color:  var(var(--Primary-Brand));
+    background-color:  var(var(--primary-Brand));
     border-radius: 4px;
     padding: 12px, 24px, 12px, 24px;
     cursor: pointer;
@@ -94,15 +94,15 @@ body {color:var(--Text)
     font-weight: 500;
     font-family: inherit;}
 .nav-button {
-    color:var(--Primary-Brand);
-    background-color: var(--Accent);
+    color:var(--primary-Brand);
+    background-color: var(--accent);
     border: 1px;
-    border-color: var(--Accent);
+    border-color: var(--accent);
     border-radius: 4px;
     font-family: inherit;}
 .nav-button:active
     {border: 1px;
-    border-color: var(--Accent);
+    border-color: var(--accent);
     solid;
     font-family: inherit;}
 .ul-head-menu {list-style: none;}
@@ -115,7 +115,7 @@ body {color:var(--Text)
     line-height: 1.5;
     font-weight: 500;
     padding: 12px 24px 12px 24px;}
-.head-menu:active {color: var(--Pressed-state)
+.head-menu:active {color: var(--pressed-state)
     text-decoration:none;
     font-size: 16px;
     line-height: 1.5;
@@ -126,7 +126,7 @@ body {color:var(--Text)
     font-size: 16px;
     line-height: 1.5;}
 .contacts:hover,
-.contacts:focus {color: var(--Pressed-state)
+.contacts:focus {color: var(--pressed-state)
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;}
@@ -156,9 +156,9 @@ body {color:var(--Text)
 .member-profession{color: var(--Text;)
     font-size: 16px;
     line-height: 1.5;}
-    /*footer*/
+/*footer*/
 .footer {background-color: var(--brand-color);
-    color:var(--Accent)}
+    color:var(--accent)}
 .footer-text {color:#E7E9FC;
     font-size: 16px;
     line-height: 1.5;}
