@@ -1,0 +1,142 @@
+:root {
+    --brand-color:#2E2F42;
+}
+body {color:#434455;
+    background-color: #E5E5E5;
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+/* main text color #434455 */
+/* title color #2E2F42 */
+/* footer text color #E7E9FC*/
+/* section main title #E5E5E5*/
+h1 {background-color: #696fb0;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.072;
+    font-weight: 700;}
+<!--Logo-->
+.webstudioheader {font-family: 'raleway';
+    text-decoration: none;
+    color:#2E2F42;
+    font-size: 18px;
+    line-height: 1.333;
+    font-weight: 800;}
+    span {color:#4D5AE5}
+.webstudiofooter {font-family: 'raleway';
+        text-decoration: none;
+        color: #F4F4FD;
+        font-size: 18px;
+        line-height: 1.333;
+        font-weight: 800;}
+.main-title {color: #FFFFFF; 
+    background-color: #2E2F42;
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700;}
+<!--button-->
+.order-service {color:#FFFFFF;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.order-service:hover {color:#FFFFFF; 
+    background-color: #404BBF;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500}
+button { margin: 0 auto;
+    display: block;}
+<!--button-portfolio-->
+.filter-button 
+    {color:#F4F4FD;
+    background-color: #404BBF;
+    border-radius: 4px;
+    padding: 12px, 24px, 12px, 24px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;}
+.filter-button:active
+    {color:#F4F4FD;
+    background-color: #404BBF;
+    border-radius: 4px;
+    padding: 12px, 24px, 12px, 24px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;}
+    .nav-button {color:#4D5AE5;
+    background-color: #E7E9FC;
+    border: 1px;
+    border-color: #E7E9FC;
+    border-radius: 4px;}
+    .nav-button:active
+    {border: 1px;
+        border-color: #E7E9FC;
+        solid;}
+.ul-head-menu{list-style: none;}
+.ul-addres{list-style: none;}
+.album{list-style: none;}
+.head-menu {color: #2E2F42; 
+    text-decoration:none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 12px, 24px, 12px, 24px;}
+.head-menu:active {color: #404BBF; text-decoration:none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;}
+.contacts {color: #434455;text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;}
+.contacts:hover,
+.contacts:focus {color: #404BBF; text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;}
+
+.second-title {color:var(--brand-color)
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight:700;
+    text-align: center}
+.third-title {color: var(--brand-color);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;}
+.description {color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;}
+<h3>.pic-head {color:#2E2F42
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+<!--команда-->
+.our-team {background-color: #F4F4FD;}
+.team-members {backgroundcolor: #FFFFFF;}
+.team-member {color: var(--brand-color)
+    font-size: 20px;
+    line-height: 1.2;}
+.member-profession{color:#434455
+    font-size: 16px;
+    line-height: 1.5;}
+.footer {background-color: #2E2F42;
+    color:var(--brand-color)}
+.footer-text {color:#E7E9FC;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;}
+
+
+}
+<ul>{list-style: none;}
