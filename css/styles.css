@@ -29,6 +29,7 @@ body {color:var(--text);
 /* Logo */
 .webstudioheader {font-family: 'Raleway', Sans-Serif;
     text-decoration: none;
+    text-transform: uppercase;
     color: var(--brand-color);
     font-size: 18px;
     line-height: 1.333;
@@ -36,6 +37,7 @@ body {color:var(--text);
     span {color:var(--primary-Brand);}
 .webstudiofooter {font-family: 'Raleway', Sans-Serif;
         text-decoration: none;
+        text-transform: uppercase;
         color: var(--Light);
         font-size: 18px;
         line-height: 1.333;
@@ -46,8 +48,9 @@ body {color:var(--text);
         list-style: none;}
     .ul-contacts {
         list-style: none;
+        font-style: normal;
     }
-/*button*/
+/*button-index*/
 .order-service {
     color:var(--text-white);
     background-color: var(--primary-Brand);
@@ -71,8 +74,8 @@ body {color:var(--text);
     font-family: inherit;}
 /*button-portfolio*/
 .filter-button 
-    {color:var(--light);
-    background-color:  var(--pressed-state);
+    {color:var(--text-white);
+    background-color:  var(--primary-Brand);
     border-radius: 4px;
     padding: 12px 24px 12px 24px;
     cursor: pointer;
@@ -81,8 +84,8 @@ body {color:var(--text);
     font-weight: 500;
     font-family: inherit;}
 .filter-button:active
-    {color:var(--Light);
-    background-color: var(--primary-Brand);
+    {color:var(--text-white);
+    background-color: var(--pressed-state);
     border-radius: 4px;
     padding: 12px 24px 12px 24px;
     cursor: pointer;
@@ -96,10 +99,13 @@ body {color:var(--text);
     border: 1px;
     border-color: var(--accent);
     border-radius: 4px;
-    font-family: inherit;}
+    font-family: inherit;
+    cursor: pointer;}
 .nav-button:active
     {border: 1px;
     border-color: var(--accent);
+    color: var(--pressed-state);
+    cursor: pointer;
     font-family: inherit;}
 .ul-head-menu {list-style: none;}
 .ul-addres {list-style: none;}
@@ -145,7 +151,8 @@ body {color:var(--text);
     font-weight: 500;}
 /*команда*/
 .our-team {background-color: var(--Light);}
-.team-members {background-color: var(--text-white);}
+.team-members {background-color: var(--light);}
+.team-members-class {background-color: var(--text-white);}
 .team-member {color: var(--brand-color);
     font-size: 20px;
     line-height: 1.2;}
