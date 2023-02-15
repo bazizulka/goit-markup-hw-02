@@ -1,7 +1,7 @@
 :root {
-    --brand-color:#2E2F42;
+    --brand-color:#2E2F42; /*navy blue*/
     --primary-Brand:#4D5AE5;
-    --pressed-state:#404BBF;
+    --pressed-state:#404BBF; /*ocean blue*/
     --success:#31D0AA;
     --text:#434455;
     --subtleText:#8E8F99;
@@ -10,7 +10,6 @@
     --modal-overlay:#2E2F42;
     --hero-background:#2E2F42;
     --white:#ffffff;
-
 }
 body {color:var(--text);
     background-color:var(--white);
@@ -84,6 +83,7 @@ body {color:var(--text);
     line-height: 1.5;
     font-weight: 500;
     font-family: inherit;}
+    
 .nav-button:hover,
 .nav-button:focus
     {color:var(--primary-Brand);
@@ -97,34 +97,34 @@ body {color:var(--text);
     font-family: inherit;}
 .ul-head-menu{
         list-style: none;
-        color: var(--brand-color);
     }
-.ul-head-menu :hover,
-.ul-head-menu: :focus {
-    list-style: none;
-    color: var(--pressed-state);}
-.ul-addres {list-style: none;}
-.section-nav-button {list-style: none;}
-.album {list-style: none;}
-.head-menu {color: var(--brand-color);
-    text-decoration:none;
+.head-menu {
+    color: var(--brand-color);
+    text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
     padding: 12px 24px 12px 24px;}
 .head-menu:hover,
-.head-menu:hover:focus {color: var(--pressed-state);
-    text-decoration:none;
+.head-menu:focus {
+    color: var(--pressed-state);
+    text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
-    padding: 12px 24px 12px 24px;}
+    padding: 12px 24px 12px 24px;
+}
+.ul-contacts {list-style: none;}
+.section-nav-button {list-style: none;}
+.album {list-style: none;}
+
 .contacts {color: var(--Text);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;}
 .contacts:hover,
-.contacts:focus {color: var(--pressed-state);
+.contacts:focus {
+    color: var(--pressed-state);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;}
