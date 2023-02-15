@@ -1,7 +1,7 @@
 :root {
-    --brand-color:#2E2F42;
+    --brand-color:#2E2F42; /*navy blue*/
     --primary-Brand:#4D5AE5;
-    --pressed-state:#404BBF;
+    --pressed-state:#404BBF; /*ocean blue*/
     --success:#31D0AA;
     --text:#434455;
     --subtleText:#8E8F99;
@@ -9,50 +9,46 @@
     --light :#F4F4FD;
     --modal-overlay:#2E2F42;
     --hero-background:#2E2F42;
-    --white-body:#E5E5E5;
-    --text-white:#FFFFFF;
-
+    --white:#ffffff;
 }
 body {color:var(--text);
-    background-color: var(--white-body);
+    background-color:var(--white);
     font-family:'Roboto', Sans-Serif;
     font-size: 16px;
     line-height: 1.5;
 }
-.main-title {background-color:var(--brand-color);
-    text-align: center;
-    color: var(--text-white);
+.main-title {color: var(--white);
+    background-color: var(--brand-color);
     list-style: none;
+    text-align: center;
     font-size: 56px;
-    line-height: 1.07;
-    font-weight: 700;}
+    line-height: 1.072;}
 /* Logo */
 .webstudioheader {font-family: 'Raleway', Sans-Serif;
     text-decoration: none;
-    text-transform: uppercase;
-    color: var(--brand-color);
+    color:#2E2F42;
     font-size: 18px;
     line-height: 1.333;
     font-weight: 800;}
     span {color:var(--primary-Brand);}
 .webstudiofooter {font-family: 'Raleway', Sans-Serif;
         text-decoration: none;
-        text-transform: uppercase;
         color: var(--Light);
         font-size: 18px;
         line-height: 1.333;
         font-weight: 800;}
     .brews-text {
-        list-style: none;}
+        list-style: none;
+    }
     .what-we-are-doing{
-        list-style: none;}
+        list-style: none;
+    }
     .ul-contacts {
         list-style: none;
-        font-style: normal;
     }
-/*button-index*/
+/*button*/
 .order-service {
-    color:var(--text-white);
+    color:var(--white);
     background-color: var(--primary-Brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -63,7 +59,7 @@ body {color:var(--text);
     font-family: inherit;
 }
 .order-service:hover {
-    color:var(--text-white);
+    color:var(--white); 
     background-color: var(--pressed-state);
     font-size: 16px;
     line-height: 1.5;
@@ -73,62 +69,58 @@ body {color:var(--text);
     display: block;
     font-family: inherit;}
 /*button-portfolio*/
-.filter-button 
-    {color:var(--text-white);
-    background-color:  var(--primary-Brand);
+.nav-button 
+    {color:var(--light);
+    background-color:  var(--pressed-state);
     border-radius: 4px;
-    padding: 12px 24px 12px 24px;
+    padding: 12px, 24px, 12px, 24px;
     cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
     font-family: inherit;}
-.filter-button:active
-    {color:var(--text-white);
-    background-color: var(--pressed-state);
+    
+.nav-button:hover,
+.nav-button:focus
+    {color:var(--primary-Brand);
+    background-color:var(--light);
     border-radius: 4px;
-    padding: 12px 24px 12px 24px;
+    padding: 12px, 24px, 12px, 24px;
     cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
     font-family: inherit;}
-.nav-button {
-    color:var(--primary-Brand);
-    background-color: var(--accent);
-    border: 1px;
-    border-color: var(--accent);
-    border-radius: 4px;
-    font-family: inherit;
-    cursor: pointer;}
-.nav-button:active
-    {border: 1px;
-    border-color: var(--accent);
+.ul-head-menu{
+        list-style: none;
+    }
+.head-menu {
+    color: var(--brand-color);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 12px 24px 12px 24px;}
+.head-menu:hover,
+.head-menu:focus {
     color: var(--pressed-state);
-    cursor: pointer;
-    font-family: inherit;}
-.ul-head-menu {list-style: none;}
-.ul-addres {list-style: none;}
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 12px 24px 12px 24px;
+}
+.ul-contacts {list-style: none;}
 .section-nav-button {list-style: none;}
 .album {list-style: none;}
-.head-menu {color: var(--brand-color);
-    text-decoration:none;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
-    padding: 12px 24px 12px 24px;}
-.head-menu:active {color: var(--pressed-state);
-    text-decoration:none;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
-    padding: 12px 24px 12px 24px;}
+
 .contacts {color: var(--Text);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;}
 .contacts:hover,
-.contacts:focus {color: var(--pressed-state);
+.contacts:focus {
+    color: var(--pressed-state);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;}
@@ -137,7 +129,7 @@ body {color:var(--text);
     font-size: 36px;
     line-height: 1.11;
     font-weight:700;
-    text-align: center}
+    text-align: center;}
 .third-title {color: var(--brand-color);
     font-size: 20px;
     line-height: 1.2;
@@ -148,20 +140,20 @@ body {color:var(--text);
 .pic-head {color:var(--Text);
     font-size: 20px;
     line-height: 1.2;
-    font-weight: 500;}
+    font-weight: 500;
 /*команда*/
 .our-team {background-color: var(--Light);}
-.team-members {background-color: var(--light);}
-.team-members-class {background-color: var(--text-white);}
+.team-members {list-style: none;
+    background-color: var(--white);}
 .team-member {color: var(--brand-color);
     font-size: 20px;
     line-height: 1.2;}
-.member-profession{color: var(--Text);
+.member-profession{color: var(--Text;)
     font-size: 16px;
     line-height: 1.5;}
 /*footer*/
 .footer {background-color: var(--brand-color);
-    color:var(--accent)}
+    color:var(--accent);}
 .footer-text {color:var(--accent);
     font-size: 16px;
     line-height: 1.5;}
