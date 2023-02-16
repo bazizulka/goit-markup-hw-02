@@ -1,56 +1,76 @@
 :root {
-    --brand-color:#2E2F42; /*navy blue*/
-    --primary-Brand:#4D5AE5;
-    --pressed-state:#404BBF; /*ocean blue*/
-    --success:#31D0AA;
-    --text:#434455;
-    --subtleText:#8E8F99;
-    --accent:#E7E9FC;
-    --light :#F4F4FD;
-    --modal-overlay:#2E2F42;
-    --hero-background:#2E2F42;
-    --white:#ffffff;
+    --brand-color: #2E2F42;
+    /*navy blue*/
+    --primary-Brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    /*ocean blue*/
+    --success: #31D0AA;
+    --text: #434455;
+    --subtleText: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: #2E2F42;
+    --hero-background: #2E2F42;
+    --white: #ffffff;
 }
-body {color:var(--text);
-    background-color:var(--white);
-    font-family:'Roboto', Sans-Serif;
+
+body {
+    color: var(--text);
+    background-color: var(--white);
+    font-family: 'Roboto', Sans-Serif;
     font-size: 16px;
     line-height: 1.5;
 }
-.main-title {color: var(--white);
+
+.main-title {
+    color: var(--white);
     background-color: var(--brand-color);
     list-style: none;
     text-align: center;
     font-size: 56px;
-    line-height: 1.072;}
+    line-height: 1.072;
+}
+
 /* Logo */
-.webstudioheader {font-family: 'Raleway', Sans-Serif;
+.webstudioheader {
+    font-family: 'Raleway', Sans-Serif;
     text-decoration: none;
-    color:#2E2F42;
+    color: #2E2F42;
     text-transform: uppercase;
     font-size: 18px;
     line-height: 1.333;
-    font-weight: 800;}
-    span {color:var(--primary-Brand);}
-.webstudiofooter {font-family: 'Raleway', Sans-Serif;
+    font-weight: 800;
+}
+
+span {
+    color: var(--primary-Brand);
+}
+
+.webstudiofooter {
+    font-family: 'Raleway', Sans-Serif;
     text-decoration: none;
-    color: var(--Light);
+    color: var(--white);
     text-transform: uppercase;
     font-size: 18px;
     line-height: 1.333;
-    font-weight: 800;}
+    font-weight: 800;
+}
+
 .brews-text {
     list-style: none;
-    }
-.what-we-are-doing{
+}
+
+.what-we-are-doing {
     list-style: none;
-    }
+}
+
 .ul-contacts {
     list-style: none;
-    }
+}
+
 /*button*/
 .order-service {
-    color:var(--white);
+    color: var(--white);
     background-color: var(--primary-Brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -60,19 +80,24 @@ body {color:var(--text);
     font-weight: 500;
     font-family: inherit;
 }
+
 .order-service:hover {
-    color:var(--white); 
+    color: var(--white);
     background-color: var(--pressed-state);
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
-    font-family: inherit;}
-.button { margin: 0 auto;
+    font-family: inherit;
+}
+
+.button {
+    margin: 0 auto;
     display: block;
-    font-family: inherit;}
+    font-family: inherit;
+}
+
 /*button-portfolio*/
-.nav-button 
- {
+.nav-button {
     color: var(--primary-Brand);
     background-color: var(--light);
     border-radius: 4px;
@@ -81,29 +106,35 @@ body {color:var(--text);
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
-    font-family: inherit;}
-    
+    font-family: inherit;
+}
+
 .nav-button:hover,
-.nav-button:focus{
-     color: var(--light);
-     background-color: var(--pressed-state);
+.nav-button:focus {
+    color: var(--light);
+    background-color: var(--pressed-state);
     border-radius: 4px;
     padding: 12px 24px 12px 24px;
     cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
-    font-family: inherit;}
-.ul-head-menu{
-        list-style: none;
-    }
+    font-family: inherit;
+}
+
+.ul-head-menu {
+    list-style: none;
+}
+
 .head-menu {
     color: var(--brand-color);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
-    padding: 12px 24px 12px 24px;}
+    padding: 12px 24px 12px 24px;
+}
+
 .head-menu:hover,
 .head-menu:focus {
     color: var(--pressed-state);
@@ -113,51 +144,95 @@ body {color:var(--text);
     font-weight: 500;
     padding: 12px 24px 12px 24px;
 }
-.ul-contacts {list-style: none;}
-.section-nav-button {list-style: none;}
-.album {list-style: none;}
 
-.address {font-style: normal;}
-.contacts {color: var(--Text);
+.ul-contacts {
+    list-style: none;
+}
+
+.section-nav-button {
+    list-style: none;
+}
+
+.album {
+    list-style: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contacts {
+    color: var(--Text);
     text-decoration: none;
     font-size: 16px;
-    line-height: 1.5;}
+    line-height: 1.5;
+}
+
 .contacts:hover,
 .contacts:focus {
     color: var(--pressed-state);
     text-decoration: none;
     font-size: 16px;
-    line-height: 1.5;}
+    line-height: 1.5;
+}
 
-.second-title {color:var(--brand-color);
+.second-title {
+    color: var(--brand-color);
     font-size: 36px;
     line-height: 1.11;
-    font-weight:700;
-    text-align: center;}
-.third-title {color: var(--brand-color);
+    font-weight: 700;
+    text-align: center;
+}
+
+.third-title {
+    color: var(--brand-color);
     font-size: 20px;
     line-height: 1.2;
-    font-weight: 500;}
-.description {color: var(--Text);
+    font-weight: 500;
+}
+
+.description {
+    color: var(--Text);
     font-size: 16px;
-    line-height: 1.5;}
-.pic-head {color:var(--Text);
+    line-height: 1.5;
+}
+
+.pic-head {
+    color: var(--Text);
     font-size: 20px;
     line-height: 1.2;
-    font-weight: 500;}
+    font-weight: 500;
+}
+
 /*команда*/
-.our-team {background-color: var(--Light);}
-.team-members {list-style: none;
-    background-color: var(--white);}
-.team-member {color: var(--brand-color);
+.our-team {
+    background-color: var(--Light);
+}
+
+.team-members {
+    list-style: none;
+    background-color: var(--white);
+}
+
+.team-member {
+    color: var(--brand-color);
     font-size: 20px;
-    line-height: 1.2;}
-.member-profession{color: var(--Text);
+    line-height: 1.2;
+}
+
+.member-profession {
+    color: var(--Text);
     font-size: 16px;
-    line-height: 1.5;}
+    line-height: 1.5;
+}
+
 /*footer*/
-.footer {background-color: var(--brand-color);}
+.footer {
+    background-color: var(--brand-color);
+}
+
 .footer-text {
-    color:var(--accent);
+    color: var(--accent);
     font-size: 16px;
-    line-height: 1.5;}
+    line-height: 1.5;
+}
